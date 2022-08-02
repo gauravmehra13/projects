@@ -1,0 +1,32 @@
+.newtask{
+    border: 15px solid green;
+    width: 300px;
+    height: 200px;
+    background-color: aquamarine;
+    color: black;
+    position: absolute;
+    left: 550px;
+    top: 250px;
+    
+    
+}
+
+
+.material-icons{
+
+    position: relative;
+    left: 180px;
+    top: 7px;
+
+
+}
+
+button{
+   position: relative;
+   left: 180px;
+}
+
+body{
+    background-image:url("./blur.png");
+    background-repeat: no-repeat;
+}
