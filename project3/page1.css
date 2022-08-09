@@ -1,0 +1,76 @@
+@media screen and (min-width:700px) and (max-width:1050px) 
+
+{ 
+ 
+    a{
+        position: absolute;
+        left: 370px;
+    }
+    
+.material-icons{
+ 
+    position: absolute;
+    left: 340px;
+
+}
+ 
+
+
+
+.flexcontainer{
+    margin: 8px;
+    padding: 50px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap column ;
+    justify-content:space-evenly;
+    background-color: grey;
+
+}
+
+    
+}
+
+
+
+
+.material-icons{
+
+    position: absolute;
+    right: 120px;
+    top: 75px;
+}
+
+
+a{
+    position: absolute;
+    right: 20px;
+    text-decoration: none;
+}
+
+.flexcontainer{
+    margin: 8px;
+    padding: 50px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    justify-content:space-evenly;
+    background-color: grey;
+    
+
+}
+.para{
+    color: blue;
+    font-size:x-large;
+}
+
+.box{
+
+text-align: center;
+margin: 20px;
+    width:300px;
+    height: 300px;
+    background-color: aliceblue;
+    
+}
+
