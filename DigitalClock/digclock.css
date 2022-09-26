@@ -1,5 +1,6 @@
 body {
   background-color: indigo;
+ 
 }
 
 #clock {
@@ -30,6 +31,11 @@ body {
   color: white;
   background-color: purple;
   border-radius: 20px;
+  
+}
+#message1{
+position: relative;
+top: 20px;
 }
 
 #alarm {
@@ -51,6 +57,11 @@ body {
   border-radius: 15px;
 }
 
+
+
+
+
+
 .timings {
   background-color: violet;
   opacity: 0.53;
@@ -60,6 +71,9 @@ body {
   width: 195px;
   height: 90px;
 }
+
+
+
 
 #hover {
   color: red;
@@ -94,6 +108,7 @@ body {
   height: 100px;
   z-index: 3;
   border-radius: 15px;
+  
 }
 
 .box3 > #t1 {
@@ -105,6 +120,8 @@ body {
   top: 10px;
   left: 120px;
   border-radius: 10px;
+  text-align: center;
+  line-height: 1.5;
 }
 
 .box3 > #t2 {
@@ -116,6 +133,8 @@ body {
   top: 10px;
   left: 200px;
   border-radius: 10px;
+  text-align: center;
+  line-height: 1.5;
 }
 
 .box3 > #t3 {
@@ -127,6 +146,8 @@ body {
   top: 10px;
   left: 280px;
   border-radius: 10px;
+  text-align: center;
+  line-height: 1.5;
 }
 
 .box3 > #format {
@@ -140,6 +161,7 @@ body {
   border-radius: 10px;
   text-align: center;
   font-size: x-large;
+  line-height: 2.5;
 }
 
 .box4 {
