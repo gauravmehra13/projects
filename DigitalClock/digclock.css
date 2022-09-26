@@ -10,6 +10,12 @@ body {
   width: 160px;
 }
 
+.time{
+  width: 250px;
+  text-align: center;
+  font-size: large;
+}
+
 .box1 {
   color: #3d087b;
   position: absolute;
