@@ -20,12 +20,12 @@ let am = document.getElementsByClassName("format")
 if(6 <=hour && hour <= 12){
    document.getElementById("message").innerHTML = "GOOD MORNING!! WAKE UP!!";
     document.getElementById("message1").innerHTML = "GRAB SOME HEALTHY BREAKFAST!!!";
-    document.getElementById("imgchange").src = "./goodnight_img.svg";
+    document.getElementById("imgchange").src = "./morning.svg";
 } 
 if(12 <=hour && hour <= 17){
     document.getElementById("message").innerHTML = "GOOD AFTERNOON!! TAKE SOME SLEEP!!";
     document.getElementById("message1").innerHTML = "LET'S HAVE SOME LUNCH !!";
-    document.getElementById("imgchange").src = "./goodnight_img.svg";
+    document.getElementById("imgchange").src = "./lunch.svg";
 } 
 if(17 <= hour && hour <= 19){
     document.getElementById("message").innerHTML = "GOOD EVENING !!";
@@ -67,6 +67,11 @@ function hover() {
 
     let party=document.getElementById("alarm")
     party.innerText="Party Time"
+    party.style.backgroundColor="red"
+    party.style.color="blue"
+    party.style.fontSize="35px"
+    party.style.fontStyle="italic"
+    party.style.boxShadow="5px 5px 10px gray"
     
 }
 
