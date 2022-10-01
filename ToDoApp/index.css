@@ -37,7 +37,7 @@ body {
   padding-left: 10px;
   color: white;
 }
-.right-title2 {
+.title2 {
   width: 200px;
   height: 60px;
   display: flex;
@@ -88,7 +88,7 @@ body {
 }
 
 .tasks {
-  min-height: 200px;
+  height: 200px;
 }
 
 .innerdiv {
@@ -219,4 +219,11 @@ body {
   border-radius: 20%;
   border: none;
   cursor: pointer;
+}
+
+.text{
+color: white;
+margin-top: 30px;
+font-size: 30px ;
+font-style: italic;
 }
