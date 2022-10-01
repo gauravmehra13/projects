@@ -1,0 +1,222 @@
+body {
+  background-color: black;
+}
+
+#parent-container.active {
+  user-select: none;
+  filter: blur(5px);
+  margin: 20px auto;
+  width: 75%;
+  min-height: 600px;
+}
+
+#parent-container {
+  position: relative;
+  top: 70px;
+  margin: auto;
+  width: 75%;
+  min-height: 600px;
+}
+
+#title {
+  width: 99%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.task {
+  
+  font-size: 45px;
+  font-weight: bold;
+  color: white;
+}
+.list {
+  font-size: 40px;
+  font-weight: 100px;
+  padding-left: 10px;
+  color: white;
+}
+.right-title2 {
+  width: 200px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.fa-plus {
+  font-size: 40px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  background-color: blue;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.add {
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+.r2 {
+  font-size: 30px;
+  font-weight: normal;
+  color: white;
+}
+#Newbox {
+  width: 99%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  box-shadow: 5px 5px 5px gray;
+}
+
+.Newcards {
+  width: 250px;
+  height: 150px;
+  box-shadow: 4px 4px 4px gray;
+  min-height: 350px;
+  background-color: white;
+  border: 1px solid red;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.Newcards:hover {
+  box-shadow: 10px 5px 10px gray;
+}
+
+.tasks {
+  min-height: 200px;
+}
+
+.innerdiv {
+  display: flex;
+  justify-content: space-around;
+}
+.intext {
+  font-size: 20px;
+}
+.mark {
+  width: 100px;
+  min-height: 20px;
+  background-color: red;
+  border-radius: 20px 20px;
+}
+.dt-1 {
+  text-align: center;
+  color: blue;
+  font-size: 30px;
+}
+.del-btn1 {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  color: red;
+  left: 130px;
+  top: 0px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.add-btn1 {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  color: red;
+  left: 150px;
+  top: 0px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.card {
+  position: absolute;
+  left: 600px;
+  top: 200px;
+  width: 400px;
+  height: 200px;
+  border: 1px solid red;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+  visibility: hidden;
+}
+.card.active {
+  visibility: visible;
+  position: absolute;
+  left: 480px;
+  top: 200px;
+  width: 400px;
+  height: 200px;
+  border: 1px solid red;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+}
+.card2 {
+  position: absolute;
+  left: 600px;
+  top: 200px;
+  width: 400px;
+  height: 200px;
+  border: 1px solid red;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+  visibility: hidden;
+}
+.card2.active {
+  visibility: visible;
+  position: absolute;
+  left: 480px;
+  top: 200px;
+  width: 400px;
+  height: 200px;
+  border: 1px solid red;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+}
+.pop-text {
+  color: rebeccapurple;
+  font-size: 30px;
+}
+.input {
+  width: 300px;
+  height: 50px;
+  border: 2px solid red;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 25px;
+  font-size: large;
+  margin-top: -25px;
+}
+.input2 {
+  width: 300px;
+  height: 40px;
+  border: 2px solid red;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 25px;
+}
+.btn1 {
+  margin-top: 10px;
+  width: 80px;
+  height: 35px;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  border-radius: 20%;
+  border: none;
+}
+.btn2 {
+  margin-left: 25px;
+  width: 80px;
+  height: 35px;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  border-radius: 20%;
+  border: none;
+  cursor: pointer;
+}
